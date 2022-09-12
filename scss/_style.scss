@@ -1,0 +1,208 @@
+@function imgUrl($file, $path: "background"){
+@return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+header {
+    background: imgUrl("header.jpg") center top;
+    background-size: cover;
+
+    .navbar {
+        .btn {
+            padding-left: 31px;
+            padding-right: 31px;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-size: 1.125rem;
+                    color: #131518;
+                    font-weight: 600;
+                    padding: 8px 20px;
+                }
+            }
+        }
+    }
+
+    .banner {
+        position: relative;
+
+        .banner-container {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .banner-poster {
+        padding: 77px 0 96px;
+    }
+}
+
+section.about-us {
+    background: imgUrl('grass.png') center top;
+    background-size: cover;
+    margin: -8px 0 -14px;
+    position: relative;
+
+    .about-us-inner {
+        background: imgUrl("about-us.png") center top;
+        background-size: cover;
+
+        .why-us {
+            padding: 169px 0;
+            background: imgUrl("why-us.png") left center;
+
+            .description {
+                padding-top: 60px;
+                font-weight: 600;
+                font-size: 1.25rem;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+
+        .pool-types {
+            .pool-type-card {
+                border: 2px solid $white;
+                border-radius: 20px;
+                padding: 46px 41px;
+                color: $white;
+                text-align: center;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .description {
+                    font-weight: 600;
+                    font-size: 1.25rem;
+                    padding: 60px 0;
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 0.875rem;
+                    }
+                }
+            }
+        }
+
+        .stress-free-process {
+            padding: 154px 0 205px;
+        }
+    }
+}
+
+section.deck {
+    background: imgUrl('deck.png') center;
+    background-size: cover;
+
+    .processes {
+        background: imgUrl('wooden-bench.png') center;
+        background-size: contain;
+
+        .card {
+            background: rgba(79, 79, 79, 0.1);
+            border-radius: 20px;
+            padding: 40px 18px;
+            text-align: center;
+            height: 100%;
+
+            .cushion {
+                position: absolute;
+                top: -12.5rem;
+            }
+
+            .title {
+                font-weight: 600;
+                color: $white;
+                text-transform: capitalize;
+                font-size: 1.25rem;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 1rem;
+                }
+            }
+
+            .description {
+                color: #B0B0B0;
+                padding-top: 20px;
+                font-size: 1.125rem;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+
+    .faq {
+        background: imgUrl("chairs.png") center bottom;
+        background-size: contain;
+        padding: 154px 0 171px;
+
+        .faq-card {
+            border: 2px solid $white;
+            border-radius: 10px;
+            color: $white;
+            text-align: center;
+            padding: 30px 24px;
+            position: relative;
+
+            .title {
+                font-size: 1.25rem;
+                font-weight: 600;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 1rem;
+                }
+            }
+
+            .description {
+                font-size: 1.125rem;
+                padding-top: 30px;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 0.875rem;
+                }
+            }
+
+            .faq-img {
+                position: absolute;
+
+                &.faq-img-1 {
+                    bottom: -4rem;
+                    left: -1rem;
+                }
+
+                &.faq-img-2 {
+                    top: -4rem;
+                    left: -1rem;
+                }
+
+                &.faq-img-3 {
+                    bottom: -6rem;
+                    right: -0.5rem;
+                }
+
+                &.faq-img-4 {
+                    top: -5rem;
+                    right: -1rem;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    font-size: 0.875rem;
+    background-color: #221f1f;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.61rem;
+    }
+}
