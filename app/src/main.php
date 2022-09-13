@@ -40,17 +40,17 @@ include __DIR__ . '/header.php';
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-lg-7 col-xl-6">
-                        <h1 class="fs-1 text-white fw-600 line-height-1">Get Your Dream Pool This <span class="gradient-text fw-800">Summer</span></h1>
-                        <div class="row pt-6">
+                        <h1 class="fs-1 fw-600 line-height-1 text-center text-md-start">Get Your Dream Pool This <span class="gradient-text fw-800">Summer</span></h1>
+                        <div class="row pt-5 pt-md-6">
                             <div class="col-lg-9 col-xl-8 col-xxl-7">
                                 <div class="row">
                                     <div class="col">
-                                        <a href="#form" class="btn btn-white text-primary px-4">
+                                        <a href="#form" class="btn btn-white text-primary px-4 btn-1">
                                             Get Started
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a href="#form" class="btn btn-bordered border-white text-white px-4">
+                                        <a href="#form" class="btn btn-bordered border-white text-white px-4 btn-2">
                                             Enquire
                                         </a>
                                     </div>
@@ -106,8 +106,8 @@ include __DIR__ . '/header.php';
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-11">
-                        <div class="row gx-xxl-5 h-100">
-                            <div class="col-6 h-inherit">
+                        <div class="row gx-xxl-5 gy-4 gy-md-0 h-100">
+                            <div class="col-md-6 h-inherit">
                                 <div class="pool-type-card">
                                     <div>
                                         <div class="fs-2 fw-600">Plunge Pools</div>
@@ -122,7 +122,7 @@ include __DIR__ . '/header.php';
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 h-inherit">
+                            <div class="col-md-6 h-inherit">
                                 <div class="pool-type-card">
                                     <div>
                                         <div class="fs-2 fw-600">Custom Pools</div>
@@ -159,43 +159,43 @@ include __DIR__ . '/header.php';
 <section class="deck">
     <div class="container-fluid">
         <div class="processes p-4">
-            <div class="row gx-2 h-100">
-                <div class="col-2 h-inherit">
+            <div class="row gx-2 gy-4 gy-md-0 h-100">
+                <div class="col-md-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-1.png", "lib", "cushion") ?></div>
                         <div class="title">“Can we put a pool in our home?”</div>
                         <div class="description">Just ask the question, Let Lloyds will do the leg work to determine the best way forward to have your pool proposal approved.</div>
                     </div>
                 </div>
-                <div class="col-2 h-inherit">
+                <div class="col-md-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-2.png", "lib", "cushion") ?></div>
                         <div class="title">Initial On-Site<br> quotation</div>
                         <div class="description">We give an initial quote for the design aspect of the pool.</div>
                     </div>
                 </div>
-                <div class="col-2 h-inherit">
+                <div class="col-md-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-3.png", "lib", "cushion") ?></div>
                         <div class="title">Let’s Design – Personalised</div>
                         <div class="description">Interactive process with Lloyds Design Team to finalise the pool of your dreams.</div>
                     </div>
                 </div>
-                <div class="col-2 h-inherit">
+                <div class="col-md-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-4.png", "lib", "cushion") ?></div>
                         <div class="title">Council/Certifier Lodgement & Approval</div>
                         <div class="description">Lloyds will handle all lodges and pre-approvals so you don’t have to.</div>
                     </div>
                 </div>
-                <div class="col-2 h-inherit">
+                <div class="col-md-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-5.png", "lib", "cushion") ?></div>
                         <div class="title">Construction Quotation based on your personalised design.</div>
                         <div class="description">Not happy with the price? No Problem, you own the plans and approval - your free to go to another contractor of your choice.</div>
                     </div>
                 </div>
-                <div class="col-2 h-inherit">
+                <div class="col-md-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-6.png", "lib", "cushion") ?></div>
                         <div class="title">Happy with the price? Well its Time to install</div>
@@ -206,7 +206,7 @@ include __DIR__ . '/header.php';
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center pt-7">
+        <div class="row justify-content-center pt-4 pt-md-7">
             <div class="col col-md-4 col-lg-3 col-xl-2 col-xxl-auto">
                 <a href="#form" class="btn btn-primary text-white px-4">
                     Get Started
@@ -222,30 +222,30 @@ include __DIR__ . '/header.php';
 
     <div class="faq">
         <div class="container">
-            <div class="text-center fs-2 fw-600 line-height-1 text-white pb-8">Frequently Asked Questions</div>
-            <div class="row gx-xxl-5">
-                <div class="col-3 pt-8">
+            <div class="text-center fs-2 fw-600 line-height-1 text-white pb-5 pb-md-8">Frequently Asked Questions</div>
+            <div class="row gx-xxl-5 gy-4 gy-md-0">
+                <div class="col-md-3 pt-md-8">
                     <div class="faq-card pb-8">
                         <div class="title">Does Size play a role in my decision?</div>
                         <div class="description">The size of the pool isn’t only dependent on the amount of space available in the area. It also depends on the zoning restrictions and your budget. Call up your contractor to seek guidance and comply with the zoning accommodation.</div>
                         <?= renderImg("faq-1.png", "lib", "faq-img faq-img-1") ?>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3">
                     <div class="faq-card pt-8">
                         <div class="title">What is the difference between an above and below ground pool?</div>
                         <div class="description">Soil removal and excavation are required for pools that are built above the ground whereas in-ground pools provide more permanent home. Hence, you ought to decide the kind of construction you would consider in building your pool.</div>
                         <?= renderImg("faq-2.png", "lib", "faq-img faq-img-2") ?>
                     </div>
                 </div>
-                <div class="col-3 pt-5">
+                <div class="col-md-3 pt-mt-5">
                     <div class="faq-card pb-8">
                         <div class="title">What is needed to maintain my pool?</div>
                         <div class="description">Every pool comes with the responsibility of maintenance. You need to ensure that your pool is energy-efficient with substantial filtration and sound hydraulics. Other kits include usage of adequate skimmers, variable speed pumps, pool pump enclosures, larger pipes, sanitizers, chlorinators and more.</div>
                         <?= renderImg("faq-3.png", "lib", "faq-img faq-img-3") ?>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3">
                     <div class="faq-card pt-8">
                         <div class="title">What other pool features are available?</div>
                         <div class="description">Lightning and water features are always meant to maximize the enjoyment of a pool. Depending on your usage, you can go for shallow-beach style entries, underwater benches, a swim-up bar and play areas for basketball or volleyball. Another convenient way to protect an unsupervised pool is to opt for an automatic pool safety cover.</div>
@@ -265,7 +265,7 @@ include __DIR__ . '/header.php';
             </div>
             <div class="col-lg-6">
                 <div class="form-card">
-                    <div class="fs-2 fw-600">Contact Us Today</div>
+                    <div class="fs-2 fw-600 line-height-1">Contact Us Today</div>
                     <form action="./src/form" method="POST">
                         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                         <div class="row gx-xxl-5 gy-4 justify-content-lg-between">
@@ -315,7 +315,7 @@ include __DIR__ . '/header.php';
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-12 pt-5">
+                            <div class="col-12 pt-4 pt-md-5">
                                 <button type="submit" class="btn btn-white text-primary fw-700 fs-4 px-4 px-xl-5">
                                     Enquire
                                 </button>
@@ -334,7 +334,7 @@ include __DIR__ . '/header.php';
 
 <section class="gallery">
     <div class="container-fluid">
-        <div class="gallery-slider px-5">
+        <div class="gallery-slider px-xxl-5">
             <div><?= renderImg('gallery-1.jpg', 'lib') ?></div>
             <div><?= renderImg('gallery-2.jpg', 'lib') ?></div>
             <div><?= renderImg('gallery-3.jpg', 'lib') ?></div>

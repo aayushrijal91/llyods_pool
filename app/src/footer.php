@@ -1,27 +1,21 @@
 <footer>
-	<div class="container-fluid px-6 py-4">
+	<div class="container-fluid px-md-6 py-4">
 		<div class="row justify-content-center justify-content-lg-between align-items-center">
-			<div class="col-auto">
+			<div class="col-md-auto text-center pb-4 pb-md-0">
 				<a href="./" target="_blank">
 					<?= renderImg("footer-logo.png", "logo") ?>
 				</a>
 			</div>
-			<div class="col-auto">
+			<div class="col-md-auto">
 				<div class="row gx-2 gx-md-3 justify-content-center">
-					<div class="col-12 text-center pb-3 d-lg-none">
-						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-							<?= renderImg("aiims.png", "logo") ?>
-						</a>
-					</div>
 					<div class="col-auto text-center"><?= $site ?></div>
 					<div class="col-auto text-primary">/</div>
 					<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
 					<div class="col-auto text-primary">/</div>
-					<div class="col-auto text-center">All Rights Reserved
-					</div>
+					<div class="col-auto text-center">All Rights Reserved</div>
 				</div>
 			</div>
-			<div class="col-auto">
+			<div class="col-auto py-4 py-md-0">
 				<div class="row align-items-center">
 					<div class="col-auto">
 						<a href="https://www.facebook.com/lloydsbuildingsydney/"><?= renderImg("facebook.png", "icons") ?></a>
@@ -34,7 +28,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-auto d-none d-lg-block">
+			<div class="col-auto py-4 py-md-0">
 				<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 					<?= renderImg("aiims.png", "logo") ?>
 				</a>

@@ -29,5 +29,13 @@ $(() => {
         slidesToShow: 4,
         prevArrow: "<img class='a-left control-c prev slick-prev' src='assets/images/icons/slick-prev.png'>",
         nextArrow: "<img class='a-right control-c next slick-next' src='assets/images/icons/slick-next.png'>",
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     })
 })
