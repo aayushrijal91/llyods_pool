@@ -11,6 +11,12 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
 });
 
 $(window).on('scroll', () => {
+    if ($(this).scrollTop() >= 121) {
+        $('.navbar').css('background', '#ffffff');
+    } else {
+        $('.navbar').css('background', 'rgba(0,0,0,0)');
+    }
+    
     if ($(this).scrollTop() >= 600) {
         $('#return-to-top').fadeIn(300);
     } else {

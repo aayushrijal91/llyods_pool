@@ -7,6 +7,8 @@ header {
     background-size: cover;
 
     .navbar {
+        transition: 0.1s all ease-in-out;
+
         .btn {
             padding-left: 31px;
             padding-right: 31px;
@@ -39,6 +41,7 @@ header {
 
     .banner {
         position: relative;
+        padding-top: 121px;
 
         .banner-container {
             color: $dark-grey;
@@ -400,7 +403,7 @@ section.gallery {
 
         .slick-next {
             right: -4px;
-            
+
             @include media-breakpoint-up(md) {
                 right: 50px;
             }
