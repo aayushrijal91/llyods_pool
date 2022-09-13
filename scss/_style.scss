@@ -20,7 +20,7 @@ header {
 
         .navbar-toggler {
             border: 0;
-            
+
             &:focus {
                 outline: none;
                 box-shadow: none;
@@ -52,17 +52,16 @@ header {
         padding-top: 121px;
 
         .banner-container {
-            color: $dark-grey;
-            padding-top: 48px;
+            color: $white;
+            padding-top: 0;
+            position: absolute;
+            top: 0;
+            margin-top: 260px;
 
             @include media-breakpoint-up(md) {
                 margin-top: 54px;
-                padding-top: 0;
-                color: $white;
-                position: absolute;
                 height: 100%;
                 width: 100%;
-                top: 0;
                 left: 0;
             }
 
@@ -85,17 +84,28 @@ header {
 }
 
 section.about-us {
-    background: imgUrl('grass.png') center top;
+    background: imgUrl('grass-sm.png') center top;
     background-size: cover;
-    margin: -8px 0 -14px;
+    margin: -4px 0 0;
     position: relative;
+
+    @include media-breakpoint-up(md) {
+        margin: -8px 0 0;
+        background: imgUrl('grass.png') center top;
+    }
 
     .about-us-inner {
         background: imgUrl("about-us.png") center top;
         background-size: cover;
 
         .why-us {
-            padding: 80px 0 34px;
+            .why-us-pool-sm {
+                margin-top: -10px;
+            }
+
+            @include media-breakpoint-up(md) {
+                padding: 80px 0 34px;
+            }
 
             @include media-breakpoint-up(lg) {
                 padding: 169px 0 34px;
@@ -115,6 +125,42 @@ section.about-us {
                     padding-top: 24px;
                     font-size: 0.875rem;
                 }
+            }
+        }
+
+        .pool-types-tab-wrapper {
+            border: 2px solid $white;
+            border-radius: 20px;
+            padding: 40px 20px;
+            color: $white;
+
+            .nav {
+                .nav-item {
+                    padding: 0 7px;
+
+                    .nav-link {
+                        height: 66px;
+                        background-color: $light;
+                        color: $dark;
+                        font-weight: 600;
+                        border-radius: 10px;
+
+                        &.active {
+                            background-color: $primary;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+
+            .heading {
+                font-size: 3rem;
+                font-weight: 600;
+                line-height: 1;
+            }
+
+            .description {
+                padding: 40px 0 60px;
             }
         }
 
@@ -168,7 +214,11 @@ section.about-us {
         }
 
         .stress-free-process {
-            padding: 80px 0;
+            padding: 115px 0;
+
+            @include media-breakpoint-up(md) {
+                padding: 80px 0;
+            }
 
             @include media-breakpoint-up(xl) {
                 padding: 154px 0 205px;
@@ -320,11 +370,16 @@ section.deck {
 }
 
 section.form {
-    background: imgUrl("form.png") center top;
+    background: imgUrl("form-sm.png") center top;
     background-size: cover;
     margin-top: -1rem;
     position: relative;
     padding: 80px 0;
+
+    @include media-breakpoint-up(md) {
+        background: imgUrl("form.png") center top;
+        background-size: cover;
+    }
 
     @include media-breakpoint-up(lg) {
         padding: 216px 0 139px;
@@ -396,11 +451,22 @@ section.form {
             }
         }
     }
+
+    .llyods_building_btn {
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: $dark;
+        text-decoration: none;
+    }
 }
 
 section.gallery {
     background-color: $dark;
-    padding: 79px 0;
+    padding: 38px 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 79px 0;
+    }
 
     .gallery-slider {
         .slick-track {
@@ -409,10 +475,7 @@ section.gallery {
 
         .slick-slide {
             height: inherit;
-
-            @include media-breakpoint-up(md) {
-                margin: 0 8px;
-            }
+            margin: 0 8px;
 
             @include media-breakpoint-up(lg) {
                 margin: 0 19px;
@@ -453,8 +516,4 @@ footer {
     font-size: 0.875rem;
     color: $light;
     background-color: $dark;
-
-    @include media-breakpoint-down(sm) {
-        font-size: 0.61rem;
-    }
 }

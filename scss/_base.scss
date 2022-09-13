@@ -10,15 +10,9 @@ body {
 }
 
 .gradient-text {
-    background: -webkit-linear-gradient(0deg, $secondary, $primary);
+    background: -webkit-linear-gradient(0deg, #FBF79F, #FFADC2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    @include media-breakpoint-up(md) {
-        background: -webkit-linear-gradient(0deg, #FBF79F, #FFADC2);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
 }
 
 .btn {
