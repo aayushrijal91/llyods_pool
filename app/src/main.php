@@ -39,10 +39,10 @@ include __DIR__ . '/header.php';
         <div class="banner-container">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
-                    <div class="col-lg-7 col-xl-6">
+                    <div class="col-md-9 col-lg-7 col-xl-6">
                         <h1 class="fs-1 fw-600 line-height-1 text-center text-md-start">Get Your Dream Pool This <span class="gradient-text fw-800">Summer</span></h1>
-                        <div class="row pt-5 pt-md-6">
-                            <div class="col-lg-9 col-xl-8 col-xxl-7">
+                        <div class="row pt-5 pt-md-4 pt-lg-6">
+                            <div class="col-md-9 col-xl-8 col-xxl-7">
                                 <div class="row">
                                     <div class="col">
                                         <a href="#form" class="btn btn-white text-primary px-4 btn-1">
@@ -81,7 +81,7 @@ include __DIR__ . '/header.php';
                                     <p>Our commitment is to provide a tailored and ‘stree-free’ process that meets quality solutions every step of the way. Our expert team of pool builders master Australian outdoor living by creating unique, affordable and functional pool designs and landscapes. Let us craft an inspiring and modern addition to your home and lifestyle - it's your time to enjoy a lifetime of luxury and entertainment.</p>
                                 </div>
                                 <div class="row justify-content-center">
-                                    <div class="col-lg-9 pt-5">
+                                    <div class="col-md-7 col-lg-9 pt-5">
                                         <div class="row">
                                             <div class="col">
                                                 <a href="#form" class="btn btn-primary text-white">
@@ -101,16 +101,17 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
+            <?= renderImg('why-us.png', 'background', 'd-lg-none pt-5') ?>
         </div>
         <div class="pool-types">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-11">
-                        <div class="row gx-xxl-5 gy-4 gy-md-0 h-100">
+                        <div class="row gx-md-2 gx-xxl-5 gy-4 gy-md-0 h-100">
                             <div class="col-md-6 h-inherit">
                                 <div class="pool-type-card">
                                     <div>
-                                        <div class="fs-2 fw-600">Plunge Pools</div>
+                                        <div class="fs-2 fw-600 line-height-1">Plunge Pools</div>
                                         <div class="description">
                                             <p>At Lloyds Pools, we specialise in designing and installing Plunge Pools that suit your backyard, surrounding architecture and budget.</p>
                                             <p>Australian backyards are getting smaller and Plunge Pools have become the ideal solution for homeowners wanting to elevate their outdoor area with limited space. Its compact design provides the perfect balance of luxury, size and comfort.</p>
@@ -125,7 +126,7 @@ include __DIR__ . '/header.php';
                             <div class="col-md-6 h-inherit">
                                 <div class="pool-type-card">
                                     <div>
-                                        <div class="fs-2 fw-600">Custom Pools</div>
+                                        <div class="fs-2 fw-600 line-height-1">Custom Pools</div>
                                         <div class="description">
                                             <p>We understand that every backyard may differ in terms of shape and style. Our custom-built pool designs are personalised to meet your needs and desires by creating an outdoor area that flows and works aesthetically.</p>
                                             <p>We work closely with you from initial consultation to design development, right down to the completed product.</p>
@@ -158,44 +159,44 @@ include __DIR__ . '/header.php';
 
 <section class="deck">
     <div class="container-fluid">
-        <div class="processes p-4">
-            <div class="row gx-2 gy-4 gy-md-0 h-100">
-                <div class="col-md-2 h-inherit">
+        <div class="processes py-4 px-lg-4">
+            <div class="row gx-2 gy-4 gy-lg-0 h-100">
+                <div class="col-md-6 col-lg-4 col-xl-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-1.png", "lib", "cushion") ?></div>
                         <div class="title">“Can we put a pool in our home?”</div>
                         <div class="description">Just ask the question, Let Lloyds will do the leg work to determine the best way forward to have your pool proposal approved.</div>
                     </div>
                 </div>
-                <div class="col-md-2 h-inherit">
+                <div class="col-md-6 col-lg-4 col-xl-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-2.png", "lib", "cushion") ?></div>
                         <div class="title">Initial On-Site<br> quotation</div>
                         <div class="description">We give an initial quote for the design aspect of the pool.</div>
                     </div>
                 </div>
-                <div class="col-md-2 h-inherit">
+                <div class="col-md-6 col-lg-4 col-xl-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-3.png", "lib", "cushion") ?></div>
                         <div class="title">Let’s Design – Personalised</div>
                         <div class="description">Interactive process with Lloyds Design Team to finalise the pool of your dreams.</div>
                     </div>
                 </div>
-                <div class="col-md-2 h-inherit">
+                <div class="col-md-6 col-lg-4 col-xl-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-4.png", "lib", "cushion") ?></div>
                         <div class="title">Council/Certifier Lodgement & Approval</div>
                         <div class="description">Lloyds will handle all lodges and pre-approvals so you don’t have to.</div>
                     </div>
                 </div>
-                <div class="col-md-2 h-inherit">
+                <div class="col-md-6 col-lg-4 col-xl-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-5.png", "lib", "cushion") ?></div>
                         <div class="title">Construction Quotation based on your personalised design.</div>
                         <div class="description">Not happy with the price? No Problem, you own the plans and approval - your free to go to another contractor of your choice.</div>
                     </div>
                 </div>
-                <div class="col-md-2 h-inherit">
+                <div class="col-md-6 col-lg-4 col-xl-2 h-inherit">
                     <div class="card">
                         <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-6.png", "lib", "cushion") ?></div>
                         <div class="title">Happy with the price? Well its Time to install</div>
@@ -206,7 +207,7 @@ include __DIR__ . '/header.php';
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center pt-4 pt-md-7">
+        <div class="row justify-content-center pt-4 pt-md-5 pt-lg-7">
             <div class="col col-md-4 col-lg-3 col-xl-2 col-xxl-auto">
                 <a href="#form" class="btn btn-primary text-white px-4">
                     Get Started
@@ -223,29 +224,29 @@ include __DIR__ . '/header.php';
     <div class="faq">
         <div class="container">
             <div class="text-center fs-2 fw-600 line-height-1 text-white pb-5 pb-md-8">Frequently Asked Questions</div>
-            <div class="row gx-xxl-5 gy-4 gy-md-0">
-                <div class="col-md-3 pt-md-8">
+            <div class="row gx-xxl-5 gy-4 gy-md-6 gy-lg-0">
+                <div class="col-md-6 col-lg-3 pt-lg-8">
                     <div class="faq-card pb-8">
                         <div class="title">Does Size play a role in my decision?</div>
                         <div class="description">The size of the pool isn’t only dependent on the amount of space available in the area. It also depends on the zoning restrictions and your budget. Call up your contractor to seek guidance and comply with the zoning accommodation.</div>
                         <?= renderImg("faq-1.png", "lib", "faq-img faq-img-1") ?>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="faq-card pt-8">
                         <div class="title">What is the difference between an above and below ground pool?</div>
                         <div class="description">Soil removal and excavation are required for pools that are built above the ground whereas in-ground pools provide more permanent home. Hence, you ought to decide the kind of construction you would consider in building your pool.</div>
                         <?= renderImg("faq-2.png", "lib", "faq-img faq-img-2") ?>
                     </div>
                 </div>
-                <div class="col-md-3 pt-mt-5">
+                <div class="col-md-6 col-lg-3 pt-mt-5">
                     <div class="faq-card pb-8">
                         <div class="title">What is needed to maintain my pool?</div>
                         <div class="description">Every pool comes with the responsibility of maintenance. You need to ensure that your pool is energy-efficient with substantial filtration and sound hydraulics. Other kits include usage of adequate skimmers, variable speed pumps, pool pump enclosures, larger pipes, sanitizers, chlorinators and more.</div>
                         <?= renderImg("faq-3.png", "lib", "faq-img faq-img-3") ?>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="faq-card pt-8">
                         <div class="title">What other pool features are available?</div>
                         <div class="description">Lightning and water features are always meant to maximize the enjoyment of a pool. Depending on your usage, you can go for shallow-beach style entries, underwater benches, a swim-up bar and play areas for basketball or volleyball. Another convenient way to protect an unsupervised pool is to opt for an automatic pool safety cover.</div>
@@ -315,7 +316,7 @@ include __DIR__ . '/header.php';
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-12 pt-4 pt-md-5">
+                            <div class="col-12 pt-4 pt-lg-5">
                                 <button type="submit" class="btn btn-white text-primary fw-700 fs-4 px-4 px-xl-5">
                                     Enquire
                                 </button>
