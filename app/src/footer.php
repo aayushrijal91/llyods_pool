@@ -1,18 +1,36 @@
 <footer>
-	<div class="container">
+	<div class="container-fluid px-6 py-4">
 		<div class="row justify-content-center justify-content-lg-between align-items-center">
 			<div class="col-auto">
-				<div class="row gx-2 gx-md-3 text-white justify-content-center">
+				<a href="./" target="_blank">
+					<?= renderImg("footer-logo.png", "logo") ?>
+				</a>
+			</div>
+			<div class="col-auto">
+				<div class="row gx-2 gx-md-3 justify-content-center">
 					<div class="col-12 text-center pb-3 d-lg-none">
 						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 							<?= renderImg("aiims.png", "logo") ?>
 						</a>
 					</div>
-					<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
-					<div class="col-auto">|</div>
 					<div class="col-auto text-center"><?= $site ?></div>
-					<div class="col-auto">|</div>
+					<div class="col-auto text-primary">/</div>
+					<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
+					<div class="col-auto text-primary">/</div>
 					<div class="col-auto text-center">All Rights Reserved
+					</div>
+				</div>
+			</div>
+			<div class="col-auto">
+				<div class="row align-items-center">
+					<div class="col-auto">
+						<a href="https://www.facebook.com/lloydsbuildingsydney/"><?= renderImg("facebook.png", "icons") ?></a>
+					</div>
+					<div class="col-auto">
+						<a href="https://www.instagram.com/lloydsbuilding/"><?= renderImg("instagram.png", "icons") ?></a>
+					</div>
+					<div class="col-auto">
+						<a href="https://www.google.com/maps/uv?pb=!1s0x6b12c97a0456c091%3A0xcd1a51c97f6cb442!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNBkcgzi0uvj9AQaqxXTzzzb5joqliPnKIqC2Ew%3Dw224-h160-k-no!5slloyds%20building%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipNBkcgzi0uvj9AQaqxXTzzzb5joqliPnKIqC2Ew&hl=en&sa=X&ved=2ahUKEwj-_c3G3cr5AhWn6nMBHUDPAuQQoip6BAhYEAM"><?= renderImg("google.png", "icons") ?></a>
 					</div>
 				</div>
 			</div>

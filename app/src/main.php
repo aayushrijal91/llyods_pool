@@ -257,4 +257,94 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
+<section class="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <?= renderImg("table.png", "lib") ?>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-card">
+                    <div class="fs-2 fw-600">Contact Us Today</div>
+                    <form action="./src/form" method="POST">
+                        <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
+                        <div class="row gx-xxl-5 gy-4 justify-content-lg-between">
+                            <div class="col-12 col-md-6">
+                                <label for="firstName">First Name</label>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="E.g. John" id="firstName" name="firstName" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="lastName">Last Name</label>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="E.g. Smith" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="email">Email Address</label>
+                                <div class="input-group">
+                                    <input class="form-control" type="email" id="email" placeholder="E.g. johnsmith@cliftons.com" name="email" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="phone">Phone Number</label>
+                                <div class="input-group">
+                                    <input class="form-control" type="tel" placeholder="E.g. 0400000000" id="phone" name="phone" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="postcode">Postcode</label>
+                                <div class="input-group">
+                                    <input class="form-control" type="tel" placeholder="E.g. 2000" id="postcode" name="postcode" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="pooltype">Pool Type</label>
+                                <div class="input-group">
+                                    <select name="service" id="service" class="form-control">
+                                        <option selected disabled>Select your prefered type</option>
+                                        <option>Fence spray painting</option>
+                                        <option>Timber staining</option>
+                                        <option>Renovations/Extensions</option>
+                                        <option>Pressure washing</option>
+                                        <option>Minor rot repairs</option>
+                                        <option>Period homes</option>
+                                        <option>Commercial & strata re-paints</option>
+                                        <option>Interior & exterior painting</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 pt-5">
+                                <button type="submit" class="btn btn-white text-primary fw-700 fs-4 px-4 px-xl-5">
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-center text-dark fs-4 letter-spacing-n01 pt-4">Need more than just a pool? <span class="fw-600">Visit Lloyd’s Building & Development <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 5.5H15M15 5.5L10.68 1M15 5.5L10.68 10" stroke="#131518" stroke-width="2" />
+                        </svg>
+                    </span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="container-fluid">
+        <div class="gallery-slider px-5">
+            <div><?= renderImg('gallery-1.jpg', 'lib') ?></div>
+            <div><?= renderImg('gallery-2.jpg', 'lib') ?></div>
+            <div><?= renderImg('gallery-3.jpg', 'lib') ?></div>
+            <div><?= renderImg('gallery-4.jpg', 'lib') ?></div>
+            <div><?= renderImg('gallery-1.jpg', 'lib') ?></div>
+            <div><?= renderImg('gallery-2.jpg', 'lib') ?></div>
+            <div><?= renderImg('gallery-3.jpg', 'lib') ?></div>
+            <div><?= renderImg('gallery-4.jpg', 'lib') ?></div>
+        </div>
+    </div>
+</section>
+
 <?php include __DIR__ . '/footer.php'; ?>
