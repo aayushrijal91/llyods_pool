@@ -18,9 +18,13 @@ header {
             }
         }
 
-        .navbar-toggler:focus {
-            outline: none;
-            box-shadow: none;
+        .navbar-toggler {
+            border: 0;
+            
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
         }
 
         @include media-breakpoint-down(xl) {
@@ -50,7 +54,7 @@ header {
         .banner-container {
             color: $dark-grey;
             padding-top: 48px;
-            
+
             @include media-breakpoint-up(md) {
                 margin-top: 54px;
                 padding-top: 0;
@@ -93,7 +97,7 @@ section.about-us {
         .why-us {
             padding: 80px 0 34px;
 
-            @include media-breakpoint-up(lg){
+            @include media-breakpoint-up(lg) {
                 padding: 169px 0 34px;
             }
 
@@ -144,7 +148,8 @@ section.about-us {
                     @include media-breakpoint-down(lg) {
                         padding: 34px 0;
                     }
-                        @include media-breakpoint-down(sm) {
+
+                    @include media-breakpoint-down(sm) {
                         font-size: 0.875rem;
                     }
                 }

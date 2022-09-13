@@ -8,7 +8,9 @@ include __DIR__ . '/header.php';
         <div class="container">
             <a class="navbar-brand" href="./"><?= renderImg("logo.png", "logo") ?></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -109,7 +111,7 @@ include __DIR__ . '/header.php';
                     <div class="col-xl-11">
                         <div class="row gx-md-2 gx-xl-4 gx-xxl-5 gy-4 gy-md-0 h-100">
                             <div class="col-md-6 h-inherit" id="plunge-pools">
-                                <div class="pool-type-card" >
+                                <div class="pool-type-card">
                                     <div>
                                         <div class="fs-2 fw-600 line-height-1">Plunge Pools</div>
                                         <div class="description">
