@@ -1,6 +1,6 @@
 // AOS.init({ duration: 1500 });
 
-document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
+document.querySelectorAll('a[href="#form"], a[href="#why-us"], a[href="#plunge-pools"], a[href="#custom-pools"], a[href="#process"], a[href="#faq"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
@@ -36,6 +36,12 @@ $(() => {
         prevArrow: "<img class='a-left control-c prev slick-prev' src='assets/images/icons/slick-prev.png'>",
         nextArrow: "<img class='a-right control-c next slick-next' src='assets/images/icons/slick-next.png'>",
         responsive: [
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {

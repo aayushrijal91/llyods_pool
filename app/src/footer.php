@@ -1,6 +1,6 @@
 <footer>
 	<div class="container-fluid px-md-6 py-4">
-		<div class="row justify-content-center justify-content-lg-between align-items-center">
+		<div class="row justify-content-center justify-content-md-between align-items-center">
 			<div class="col-md-auto text-center pb-4 pb-md-0">
 				<a href="./" target="_blank">
 					<?= renderImg("footer-logo.png", "logo") ?>
@@ -15,7 +15,7 @@
 					<div class="col-auto text-center">All Rights Reserved</div>
 				</div>
 			</div>
-			<div class="col-auto py-4 py-md-0">
+			<div class="col-auto py-4 py-lg-0">
 				<div class="row align-items-center">
 					<div class="col-auto">
 						<a href="https://www.facebook.com/lloydsbuildingsydney/"><?= renderImg("facebook.png", "icons") ?></a>
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-auto py-4 py-md-0">
+			<div class="col-auto py-4 py-lg-0">
 				<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 					<?= renderImg("aiims.png", "logo") ?>
 				</a>

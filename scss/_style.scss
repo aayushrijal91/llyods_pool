@@ -12,6 +12,10 @@ header {
         .btn {
             padding-left: 31px;
             padding-right: 31px;
+
+            @include media-breakpoint-down(xl) {
+                display: inline-flex;
+            }
         }
 
         .navbar-toggler:focus {
@@ -19,7 +23,7 @@ header {
             box-shadow: none;
         }
 
-        @include media-breakpoint-down(lg) {
+        @include media-breakpoint-down(xl) {
             .navbar-collapse {
                 background: $white;
                 padding: 34px 48px;
@@ -89,9 +93,13 @@ section.about-us {
         .why-us {
             padding: 80px 0 34px;
 
-            @include media-breakpoint-up(lg) {
-                background: imgUrl("why-us.png") left center;
+            @include media-breakpoint-up(lg){
+                padding: 169px 0 34px;
+            }
+
+            @include media-breakpoint-up(xl) {
                 padding: 169px 0;
+                background: imgUrl("why-us.png") left center;
             }
 
             .description {
@@ -121,6 +129,10 @@ section.about-us {
                 padding: 24px 16px;
 
                 @include media-breakpoint-up(lg) {
+                    padding: 46px 16px;
+                }
+
+                @include media-breakpoint-up(xl) {
                     padding: 46px 41px;
                 }
 
@@ -153,7 +165,7 @@ section.about-us {
         .stress-free-process {
             padding: 80px 0;
 
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(xl) {
                 padding: 154px 0 205px;
             }
         }
@@ -191,7 +203,7 @@ section.deck {
             }
 
             .cushion {
-                @include media-breakpoint-up(lg) {
+                @include media-breakpoint-up(xxl) {
                     position: absolute;
                     top: -12.5rem;
                 }
@@ -394,6 +406,10 @@ section.gallery {
             height: inherit;
 
             @include media-breakpoint-up(md) {
+                margin: 0 8px;
+            }
+
+            @include media-breakpoint-up(lg) {
                 margin: 0 19px;
             }
 
@@ -407,7 +423,7 @@ section.gallery {
         .slick-prev {
             left: -4px;
 
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(xl) {
                 left: 52px;
             }
         }
@@ -415,7 +431,7 @@ section.gallery {
         .slick-next {
             right: -4px;
 
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(xl) {
                 right: 50px;
             }
         }

@@ -10,10 +10,15 @@ body {
 }
 
 .gradient-text {
-    background: -webkit-linear-gradient(0deg,#FBF79F, #FFADC2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(0deg, $secondary, $primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
+    @include media-breakpoint-up(md) {
+        background: -webkit-linear-gradient(0deg, #FBF79F, #FFADC2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .btn {
@@ -22,7 +27,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    // width: 100%;
     font-size: 1.125rem;
     text-align: center;
     font-weight: 600;
