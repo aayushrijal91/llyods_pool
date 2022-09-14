@@ -79,14 +79,12 @@ include __DIR__ . '/header.php';
     <div class="container d-none d-md-block">
         <?= renderImg("banner-posters.png", "lib", "banner-poster") ?>
     </div>
-    <div class="d-md-none py-4">
-        <marquee>
-            <?= renderImg("poster-1.png", 'lib', 'marquee-poster') ?>
-            <?= renderImg("poster-2.png", 'lib', 'marquee-poster') ?>
-            <?= renderImg("poster-3.png", 'lib', 'marquee-poster') ?>
-            <?= renderImg("poster-4.png", 'lib', 'marquee-poster') ?>
-            <?= renderImg("poster-5.png", 'lib', 'marquee-poster') ?>
-        </marquee>
+    <div class="poster-slider d-md-none py-4">
+            <div class="mx-2"><?= renderImg("poster-1.png", 'lib', 'w-100') ?></div>
+            <div class="mx-2"><?= renderImg("poster-2.png", 'lib', 'w-100') ?></div>
+            <div class="mx-2"><?= renderImg("poster-3.png", 'lib', 'w-100') ?></div>
+            <div class="mx-2"><?= renderImg("poster-4.png", 'lib', 'w-100') ?></div>
+            <div class="mx-2"><?= renderImg("poster-5.png", 'lib', 'w-100') ?></div>
     </div>
 </header>
 

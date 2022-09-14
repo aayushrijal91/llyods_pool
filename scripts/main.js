@@ -39,6 +39,16 @@ $('#return-to-top').on('click', () => {
 });
 
 $(() => {
+    $('.poster-slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        speed: 3000,
+        autoplay: true,
+        autoplaySpeed: 0,
+        cssEase: 'linear',
+        arrows: false
+    });
+
     $('.gallery-slider').slick({
         slidesToShow: 4,
         prevArrow: "<img class='a-left control-c prev slick-prev' src='assets/images/icons/slick-prev.png'>",
