@@ -339,6 +339,58 @@ section.deck {
                 margin-right: 8px;
             }
 
+            .slick-dots {
+                bottom: 50px;
+                list-style-type: none;
+    
+                li {
+                    margin: 0 5px;
+                    width: 10px;
+                    height: 10px;
+    
+                    button:before {
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+    
+                button {
+                    display: block;
+                    width: 10px;
+                    height: 10px;
+                    padding: 0;
+                    border: none;
+                    background-color: $grey;
+                    opacity: 0.5;
+                    text-indent: -9999px;
+                    border-radius: 50%;
+                }
+    
+                li.slick-active button {
+                    background-color: $primary;
+                    opacity: 1;
+                }
+            }
+
+            .slick-arrow {
+                &.slick-prev, &.slick-next {
+                    top: 91%;
+                    z-index: 100;
+                }
+
+                &.slick-prev {
+                    left: 0;
+                    width: 11px;
+                    height: 18px;
+                }
+
+                &.slick-next {
+                    right: 0;
+                    width: 11px;
+                    height: 18px;
+                }
+            }
+
             .faq-card {
                 border: 2px solid $white;
                 border-radius: 10px;

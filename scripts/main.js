@@ -108,6 +108,9 @@ $(() => {
                 settings: {
                     slidesToShow: 1,
                     dots: true,
+                    arrows: true,
+                    prevArrow: "<img class='a-left control-c prev slick-prev' src='assets/images/icons/slick-prev-sm.png'>",
+                    nextArrow: "<img class='a-right control-c next slick-next' src='assets/images/icons/slick-next-sm.png'>",
                 }
             }
         ]
