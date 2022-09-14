@@ -127,7 +127,7 @@ include __DIR__ . '/header.php';
 
         <?= renderImg("poolside-bench.png", 'lib', 'w-100 d-md-none py-4') ?>
 
-        <div class="container d-md-none">
+        <div class="container d-lg-none">
             <div class="pool-types-tab-wrapper">
                 <ul class="nav nav-pills mb-3 nav-justified" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -169,7 +169,7 @@ include __DIR__ . '/header.php';
             </div>
         </div>
 
-        <div class="pool-types d-none d-md-block">
+        <div class="pool-types d-none d-lg-block">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-11">
@@ -214,7 +214,7 @@ include __DIR__ . '/header.php';
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7">
-                        <div class="fs-2 text-center text-white fw-600 line-height-1">The Personalised
+                        <div class="fs-2 text-center text-white fw-600 line-height-1 heading">The Personalised
                             “Stress-Free” Process</div>
                     </div>
                 </div>
@@ -224,51 +224,37 @@ include __DIR__ . '/header.php';
 </section>
 
 <section class="deck">
-    <div class="container-fluid">
+    <div class="container-fluid px-0 px-md-3">
         <div class="processes py-4 px-lg-4">
-            <div class="row gx-2 gy-4 gy-xxl-0 h-100">
-                <div class="col-md-6 col-lg-4 col-xxl-2 h-inherit">
-                    <div class="card">
-                        <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-1.png", "lib", "cushion") ?></div>
-                        <div class="title">“Can we put a pool in our home?”</div>
-                        <div class="description">Just ask the question, Let Lloyds will do the leg work to determine the best way forward to have your pool proposal approved.</div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xxl-2 h-inherit">
-                    <div class="card">
-                        <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-2.png", "lib", "cushion") ?></div>
-                        <div class="title">Initial On-Site<br> quotation</div>
-                        <div class="description">We give an initial quote for the design aspect of the pool.</div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xxl-2 h-inherit">
-                    <div class="card">
-                        <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-3.png", "lib", "cushion") ?></div>
-                        <div class="title">Let’s Design – Personalised</div>
-                        <div class="description">Interactive process with Lloyds Design Team to finalise the pool of your dreams.</div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xxl-2 h-inherit">
-                    <div class="card">
-                        <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-4.png", "lib", "cushion") ?></div>
-                        <div class="title">Council/Certifier Lodgement & Approval</div>
-                        <div class="description">Lloyds will handle all lodges and pre-approvals so you don’t have to.</div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xxl-2 h-inherit">
-                    <div class="card">
-                        <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-5.png", "lib", "cushion") ?></div>
-                        <div class="title">Construction Quotation based on your personalised design.</div>
-                        <div class="description">Not happy with the price? No Problem, you own the plans and approval - your free to go to another contractor of your choice.</div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xxl-2 h-inherit">
-                    <div class="card">
-                        <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-6.png", "lib", "cushion") ?></div>
-                        <div class="title">Happy with the price? Well its Time to install</div>
-                        <div class="description">We will begin building within days of acceptance.</div>
-                    </div>
-                </div>
+            <div class="card">
+                <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-1.png", "lib", "cushion") ?></div>
+                <div class="title">“Can we put a pool in our home?”</div>
+                <div class="description">Just ask the question, Let Lloyds will do the leg work to determine the best way forward to have your pool proposal approved.</div>
+            </div>
+            <div class="card">
+                <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-2.png", "lib", "cushion") ?></div>
+                <div class="title">Initial On-Site<br> quotation</div>
+                <div class="description">We give an initial quote for the design aspect of the pool.</div>
+            </div>
+            <div class="card">
+                <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-3.png", "lib", "cushion") ?></div>
+                <div class="title">Let’s Design – Personalised</div>
+                <div class="description">Interactive process with Lloyds Design Team to finalise the pool of your dreams.</div>
+            </div>
+            <div class="card">
+                <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-4.png", "lib", "cushion") ?></div>
+                <div class="title">Council/Certifier Lodgement & Approval</div>
+                <div class="description">Lloyds will handle all lodges and pre-approvals so you don’t have to.</div>
+            </div>
+            <div class="card">
+                <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-5.png", "lib", "cushion") ?></div>
+                <div class="title">Construction Quotation based on your personalised design.</div>
+                <div class="description">Not happy with the price? No Problem, you own the plans and approval - your free to go to another contractor of your choice.</div>
+            </div>
+            <div class="card">
+                <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-6.png", "lib", "cushion") ?></div>
+                <div class="title">Happy with the price? Well its Time to install</div>
+                <div class="description">We will begin building within days of acceptance.</div>
             </div>
         </div>
     </div>
@@ -290,30 +276,30 @@ include __DIR__ . '/header.php';
     <div class="faq" id="faq">
         <div class="container">
             <div class="text-center fs-2 fw-600 line-height-1 text-white pb-5 pb-md-8">Frequently Asked Questions</div>
-            <div class="row gx-xxl-5 gy-4 gy-md-6 gy-xl-0">
-                <div class="col-md-6 col-xl-3 pt-xl-8">
-                    <div class="faq-card pb-8">
+            <div class="faq-slider">
+                <div class="my-8 pt-xxl-8">
+                    <div class="faq-card pb-md-8">
                         <div class="title">Does Size play a role in my decision?</div>
                         <div class="description">The size of the pool isn’t only dependent on the amount of space available in the area. It also depends on the zoning restrictions and your budget. Call up your contractor to seek guidance and comply with the zoning accommodation.</div>
                         <?= renderImg("faq-1.png", "lib", "faq-img faq-img-1") ?>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3">
-                    <div class="faq-card pt-8">
+                <div class="my-8">
+                    <div class="faq-card pt-md-8">
                         <div class="title">What is the difference between an above and below ground pool?</div>
                         <div class="description">Soil removal and excavation are required for pools that are built above the ground whereas in-ground pools provide more permanent home. Hence, you ought to decide the kind of construction you would consider in building your pool.</div>
                         <?= renderImg("faq-2.png", "lib", "faq-img faq-img-2") ?>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3 pt-mt-5">
-                    <div class="faq-card pb-8">
+                <div class="my-8 pt-xxl-5">
+                    <div class="faq-card pb-md-8">
                         <div class="title">What is needed to maintain my pool?</div>
                         <div class="description">Every pool comes with the responsibility of maintenance. You need to ensure that your pool is energy-efficient with substantial filtration and sound hydraulics. Other kits include usage of adequate skimmers, variable speed pumps, pool pump enclosures, larger pipes, sanitizers, chlorinators and more.</div>
                         <?= renderImg("faq-3.png", "lib", "faq-img faq-img-3") ?>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3">
-                    <div class="faq-card pt-8">
+                <div class="my-8">
+                    <div class="faq-card pt-md-8">
                         <div class="title">What other pool features are available?</div>
                         <div class="description">Lightning and water features are always meant to maximize the enjoyment of a pool. Depending on your usage, you can go for shallow-beach style entries, underwater benches, a swim-up bar and play areas for basketball or volleyball. Another convenient way to protect an unsupervised pool is to opt for an automatic pool safety cover.</div>
                         <?= renderImg("faq-4.png", "lib", "faq-img faq-img-4") ?>

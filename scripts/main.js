@@ -16,7 +16,7 @@ $(window).on('scroll', () => {
     } else {
         $('.navbar').css('background', 'rgba(0,0,0,0)');
     }
-    
+
     if ($(this).scrollTop() >= 600) {
         $('#return-to-top').fadeIn(300);
     } else {
@@ -52,5 +52,64 @@ $(() => {
                 }
             }
         ]
-    })
+    });
+
+    $('.processes').slick({
+        slidesToShow: 6,
+        arrows: false,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1560,
+                settings: {
+                    slidesToShow: 3,
+                    autoplay: true,
+                }
+            },
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 1,
+                    autoplay: true,
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: true,
+                    nextArrow: "<img class='a-right control-c next slick-next' src='assets/images/icons/slick-next.png'>",
+                }
+            }
+        ]
+    });
+
+    $('.faq-slider').slick({
+        slidesToShow: 4,
+        arrows: false,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1560,
+                settings: {
+                    slidesToShow: 3,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 2,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                }
+            }
+        ]
+    });
 })
