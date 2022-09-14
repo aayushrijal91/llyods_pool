@@ -80,11 +80,11 @@ include __DIR__ . '/header.php';
         <?= renderImg("banner-posters.png", "lib", "banner-poster") ?>
     </div>
     <div class="poster-slider d-md-none py-4">
-            <div class="mx-2"><?= renderImg("poster-1.png", 'lib', 'w-100') ?></div>
-            <div class="mx-2"><?= renderImg("poster-2.png", 'lib', 'w-100') ?></div>
-            <div class="mx-2"><?= renderImg("poster-3.png", 'lib', 'w-100') ?></div>
-            <div class="mx-2"><?= renderImg("poster-4.png", 'lib', 'w-100') ?></div>
-            <div class="mx-2"><?= renderImg("poster-5.png", 'lib', 'w-100') ?></div>
+        <div class="mx-2"><?= renderImg("poster-1.png", 'lib', 'w-100') ?></div>
+        <div class="mx-2"><?= renderImg("poster-2.png", 'lib', 'w-100') ?></div>
+        <div class="mx-2"><?= renderImg("poster-3.png", 'lib', 'w-100') ?></div>
+        <div class="mx-2"><?= renderImg("poster-4.png", 'lib', 'w-100') ?></div>
+        <div class="mx-2"><?= renderImg("poster-5.png", 'lib', 'w-100') ?></div>
     </div>
 </header>
 
@@ -358,14 +358,8 @@ include __DIR__ . '/header.php';
                                 <div class="input-group">
                                     <select name="pooltype" id="pooltype" class="form-control">
                                         <option selected disabled>Select your prefered type</option>
-                                        <option>Fence spray painting</option>
-                                        <option>Timber staining</option>
-                                        <option>Renovations/Extensions</option>
-                                        <option>Pressure washing</option>
-                                        <option>Minor rot repairs</option>
-                                        <option>Period homes</option>
-                                        <option>Commercial & strata re-paints</option>
-                                        <option>Interior & exterior painting</option>
+                                        <option>Custom Pools</option>
+                                        <option>Plunge Pools</option>
                                     </select>
                                 </div>
                             </div>
