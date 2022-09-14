@@ -29,10 +29,10 @@ include __DIR__ . '/header.php';
                         <a class="nav-link active" aria-current="page" href="#why-us">Why Lloyds Pools?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#plunge-pools">Plunge Pools</a>
+                        <a class="nav-link" href="#pools">Plunge Pools</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#custom-pools">Custom Pools</a>
+                        <a class="nav-link" href="#pools">Custom Pools</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#process">Stree-Free Process</a>
@@ -102,6 +102,7 @@ include __DIR__ . '/header.php';
                                     <p>Lloyds Pools are Sydney’s leading specialists in Custom, Plunge and Standard pool design and development.</p>
                                     <p>Our commitment is to provide a tailored and ‘stree-free’ process that meets quality solutions every step of the way. Our expert team of pool builders master Australian outdoor living by creating unique, affordable and functional pool designs and landscapes. Let us craft an inspiring and modern addition to your home and lifestyle - it's your time to enjoy a lifetime of luxury and entertainment.</p>
                                 </div>
+                                <div id="pools"></div>
                                 <div class="row justify-content-center">
                                     <div class="col-md-7 col-lg-5 col-xl-9 pt-5">
                                         <div class="row">
@@ -127,7 +128,6 @@ include __DIR__ . '/header.php';
         </div>
 
         <?= renderImg("poolside-bench.png", 'lib', 'w-100 d-md-none py-4') ?>
-
         <div class="container d-lg-none">
             <div class="pool-types-tab-wrapper">
                 <ul class="nav nav-pills mb-3 nav-justified" id="pills-tab" role="tablist">
@@ -175,7 +175,7 @@ include __DIR__ . '/header.php';
                 <div class="row justify-content-center">
                     <div class="col-xl-11">
                         <div class="row gx-md-2 gx-xl-4 gx-xxl-5 gy-4 gy-md-0 h-100">
-                            <div class="col-md-6 h-inherit" id="plunge-pools">
+                            <div class="col-md-6 h-inherit">
                                 <div class="pool-type-card">
                                     <div>
                                         <div class="fs-2 fw-600 line-height-1">Plunge Pools</div>
@@ -190,7 +190,7 @@ include __DIR__ . '/header.php';
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-6 h-inherit" id="custom-pools">
+                            <div class="col-md-6 h-inherit">
                                 <div class="pool-type-card">
                                     <div>
                                         <div class="fs-2 fw-600 line-height-1">Custom Pools</div>
@@ -311,7 +311,7 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
-<section class="form">
+<section class="form" id="form">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-xl-6">
@@ -320,7 +320,7 @@ include __DIR__ . '/header.php';
             <div class="col-lg pt-6 pt-md-0">
                 <div class="form-card">
                     <div class="fs-2 fw-600 line-height-1">Contact Us Today</div>
-                    <form action="./src/form" method="POST" id="form">
+                    <form action="./src/form" method="POST">
                         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                         <div class="row gx-xxl-5 gy-5 gy-md-4 justify-content-lg-between">
                             <div class="col-12 col-md-6 col-lg-12 col-xl-6">

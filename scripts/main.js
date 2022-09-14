@@ -1,6 +1,6 @@
 // AOS.init({ duration: 1500 });
 
-document.querySelectorAll('a[href="#form"], a[href="#gallery"], a[href="#why-us"], a[href="#plunge-pools"], a[href="#custom-pools"], a[href="#process"], a[href="#faq"]').forEach(function (anchor) {
+document.querySelectorAll('a[href="#form"], a[href="#gallery"], a[href="#why-us"], a[href="#pools"], a[href="#process"], a[href="#faq"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
