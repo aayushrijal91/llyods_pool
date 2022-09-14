@@ -13,8 +13,16 @@ document.querySelectorAll('a[href="#form"], a[href="#gallery"], a[href="#why-us"
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 121) {
         $('.navbar').css('background', '#ffffff');
+        $('.navbar-toggler').css('color', '#61666C');
+        $('.callIcon').css('color', '#61666C');
+        $('.logo-before-scroll').css('display', 'none');
+        $('.logo-after-scroll').css('display', 'block');
     } else {
         $('.navbar').css('background', 'rgba(0,0,0,0)');
+        $('.navbar-toggler').css('color', '#21262D');
+        $('.callIcon').css('color', '#21262D');
+        $('.logo-before-scroll').css('display', 'block');
+        $('.logo-after-scroll').css('display', 'none');
     }
 
     if ($(this).scrollTop() >= 600) {

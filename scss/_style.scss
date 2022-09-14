@@ -20,10 +20,32 @@ header {
 
         .navbar-toggler {
             border: 0;
+            color: #21262D;
 
             &:focus {
                 outline: none;
                 box-shadow: none;
+            }
+        }
+
+        .callIcon {
+            color: #21262D;
+
+            @include media-breakpoint-up(xl) {
+                display: none;
+            }
+        }
+
+        .logo-before-scroll {
+
+        }
+
+        .logo-after-scroll {
+            transition: 0.1s all ease-in-out;
+            display: none;
+
+            @include media-breakpoint-up(lg) {
+                display: none !important;
             }
         }
 
@@ -49,7 +71,11 @@ header {
 
     .banner {
         position: relative;
-        padding-top: 121px;
+        padding-top: 158px;
+
+        @include media-breakpoint-up(lg) {
+            padding-top: 121px;
+        }
 
         .banner-container {
             color: $white;
