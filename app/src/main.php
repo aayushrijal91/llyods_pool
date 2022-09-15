@@ -35,7 +35,7 @@ include __DIR__ . '/header.php';
                         <a class="nav-link" href="#pools">Custom Pools</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#process">Stree-Free Process</a>
+                        <a class="nav-link" href="#process">Stress-Free Process</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#faq">FAQ</a>
@@ -100,7 +100,7 @@ include __DIR__ . '/header.php';
                                 <h2 class="fs-2 fw-600">Why Choose Lloyds Pools?</h2>
                                 <div class="description">
                                     <p>Lloyds Pools are Sydney’s leading specialists in Custom, Plunge and Standard pool design and development.</p>
-                                    <p>Our commitment is to provide a tailored and ‘stree-free’ process that meets quality solutions every step of the way. Our expert team of pool builders master Australian outdoor living by creating unique, affordable and functional pool designs and landscapes. Let us craft an inspiring and modern addition to your home and lifestyle - it's your time to enjoy a lifetime of luxury and entertainment.</p>
+                                    <p>Our commitment is to provide a tailored and ‘stress-free’ process that meets quality solutions every step of the way. Our expert team of pool builders master Australian outdoor living by creating unique, affordable and functional pool designs and landscapes. Let us craft an inspiring and modern addition to your home and lifestyle - it's your time to enjoy a lifetime of luxury and entertainment.</p>
                                 </div>
                                 <div id="pools"></div>
                                 <div class="row justify-content-center">
@@ -230,7 +230,7 @@ include __DIR__ . '/header.php';
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-1.png", "lib", "cushion") ?></div>
                 <div class="title">“Can we put a pool in our home?”</div>
-                <div class="description">Just ask the question, Let Lloyds will do the leg work to determine the best way forward to have your pool proposal approved.</div>
+                <div class="description">Just ask the question, Let Lloyds do the leg work to determine the best way forward to have your pool proposal approved.</div>
             </div>
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-2.png", "lib", "cushion") ?></div>
