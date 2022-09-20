@@ -99,8 +99,8 @@ include __DIR__ . '/header.php';
                             <div class="col-xl-6 col-xxl-5 text-center text-white">
                                 <h2 class="fs-2 fw-600">Why Choose Lloyds Pools?</h2>
                                 <div class="description">
-                                    <p>Lloyds Pools are Sydney’s leading specialists in Custom, Plunge and Standard pool design and development.</p>
-                                    <p>Our commitment is to provide a tailored and ‘stress-free’ process that meets quality solutions every step of the way. Our expert team of pool builders master Australian outdoor living by creating unique, affordable and functional pool designs and landscapes. Let us craft an inspiring and modern addition to your home and lifestyle - it's your time to enjoy a lifetime of luxury and entertainment.</p>
+                                    <p>Lloyds Pools is Sydney’s leading specialist for Custom, Plunge, and Standard pool designs and development.</p>
+                                    <p>Our commitment is to provide a tailored and ‘stress-free’ process that provides you with a quality outdoor solution. Our expert team of pool builders has mastered the 'Australian Outdoor Living Experience' by creating unique, affordable, and functional pool designs. Let us craft an inspiring and modern addition to your home - it's time to enjoy a lifetime of luxury and entertainment.</p>
                                 </div>
                                 <div id="pools"></div>
                                 <div class="row justify-content-center">
@@ -142,9 +142,9 @@ include __DIR__ . '/header.php';
                     <div class="tab-pane fade show active" id="plunge_pools" role="tabpanel" aria-labelledby="plunge_pools-tab">
                         <div class="heading">Plunge Pools</div>
                         <div class="description">
-                            <p>At Lloyds Pools, we specialise in designing and installing Plunge Pools that suit your backyard, surrounding architecture and budget.</p>
-                            <p>Australian backyards are getting smaller and Plunge Pools have become the ideal solution for homeowners wanting to elevate their outdoor area with limited space. Its compact design provides the perfect balance of luxury, size and comfort.</p>
-                            <div>Our Plunge Pools are the most affordable pool to operate on the market, saving you time and money on maintenance costs including heating, filtration and cleaning requirements. Relax and recharge with our Plunge Pool custom-design range.</div>
+                            <p>At Lloyds Pools, we specialise in designing and installing Plunge Pools that suit your backyard, surrounding architecture, and budget.</p>
+                            <p>Australian backyards are getting smaller, meaning Plunge Pools have become the ideal solution to elevate your outdoor area with limited space. These compact designs provide the perfect balance of luxury, size, and comfort.</p>
+                            <div>Our Plunge Pools are the most affordable option on the market, saving you time and money on maintenance costs - including heating, filtration, and cleaning requirements. Relax and recharge with our custom-designed Plunge Pool range.</div>
                         </div>
                         <div class="d-flex">
                             <a href="#form" class="btn btn-primary text-white px-5">
@@ -155,10 +155,10 @@ include __DIR__ . '/header.php';
                     <div class="tab-pane fade" id="custom_pools" role="tabpanel" aria-labelledby="custom_pools-tab">
                         <div class="heading">Custom Pools</div>
                         <div class="description">
-                            <p>We understand that every backyard may differ in terms of shape and style. Our custom-built pool designs are personalised to meet your needs and desires by creating an outdoor area that flows and works aesthetically.</p>
-                            <p>We work closely with you from initial consultation to design development, right down to the completed product.</p>
-                            <p>Our experts at Lloyds Pools will advise you on a pool style that best compliments your space, whilst considering any budgetary constraints or construction challenges.</p>
-                            <div>We help people use their homes to their full potential and create memories that will last.</div>
+                            <p>We understand that every backyard differs in shape and size. Our custom pool designs are personalised to meet your needs and desires, creating an outdoor area that flows aesthetically.</p>
+                            <p>We'll work closely with you - from the initial consultation, to design, and development, right down to completion.</p>
+                            <p>The experts at Lloyds Pools will advise you on a style that best compliments your space, while considering any budgetary requirements or construction challenges.</p>
+                            <div>We help people unlock their home’s full potential, creating memories that will last a lifetime.</div>
                         </div>
                         <div class="d-flex">
                             <a href="#form" class="btn btn-primary text-white px-5">
@@ -180,9 +180,9 @@ include __DIR__ . '/header.php';
                                     <div>
                                         <div class="fs-2 fw-600 line-height-1">Plunge Pools</div>
                                         <div class="description">
-                                            <p>At Lloyds Pools, we specialise in designing and installing Plunge Pools that suit your backyard, surrounding architecture and budget.</p>
-                                            <p>Australian backyards are getting smaller and Plunge Pools have become the ideal solution for homeowners wanting to elevate their outdoor area with limited space. Its compact design provides the perfect balance of luxury, size and comfort.</p>
-                                            <div>Our Plunge Pools are the most affordable pool to operate on the market, saving you time and money on maintenance costs including heating, filtration and cleaning requirements. Relax and recharge with our Plunge Pool custom-design range.</div>
+                                            <p>At Lloyds Pools, we specialise in designing and installing Plunge Pools that suit your backyard, surrounding architecture, and budget.</p>
+                                            <p>Australian backyards are getting smaller, meaning Plunge Pools have become the ideal solution to elevate your outdoor area with limited space. These compact designs provide the perfect balance of luxury, size, and comfort.</p>
+                                            <div>Our Plunge Pools are the most affordable option on the market, saving you time and money on maintenance costs - including heating, filtration, and cleaning requirements. Relax and recharge with our custom-designed Plunge Pool range.</div>
                                         </div>
                                     </div>
                                     <a href="#form" class="btn btn-primary text-white px-5">
@@ -195,10 +195,10 @@ include __DIR__ . '/header.php';
                                     <div>
                                         <div class="fs-2 fw-600 line-height-1">Custom Pools</div>
                                         <div class="description">
-                                            <p>We understand that every backyard may differ in terms of shape and style. Our custom-built pool designs are personalised to meet your needs and desires by creating an outdoor area that flows and works aesthetically.</p>
-                                            <p>We work closely with you from initial consultation to design development, right down to the completed product.</p>
-                                            <p>Our experts at Lloyds Pools will advise you on a pool style that best compliments your space, whilst considering any budgetary constraints or construction challenges.</p>
-                                            <div>We help people use their homes to their full potential and create memories that will last.</div>
+                                            <p>We understand that every backyard differs in shape and size. Our custom pool designs are personalised to meet your needs and desires, creating an outdoor area that flows aesthetically.</p>
+                                            <p>We'll work closely with you - from the initial consultation, to design, and development, right down to completion.</p>
+                                            <p>The experts at Lloyds Pools will advise you on a style that best compliments your space, while considering any budgetary requirements or construction challenges.</p>
+                                            <div>We help people unlock their home’s full potential, creating memories that will last a lifetime.</div>
                                         </div>
                                     </div>
                                     <a href="#form" class="btn btn-primary text-white px-5">
@@ -215,8 +215,9 @@ include __DIR__ . '/header.php';
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7">
-                        <div class="fs-2 text-center text-white fw-600 line-height-1 heading">The Personalised
-                            “Stress-Free” Process</div>
+                        <div class="fs-2 text-center text-white fw-600 line-height-1 heading">
+                        The Personalised, “Stress-Free” Process
+                        </div>
                     </div>
                 </div>
             </div>
@@ -230,7 +231,7 @@ include __DIR__ . '/header.php';
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-1.png", "lib", "cushion") ?></div>
                 <div class="title">“Can we put a pool in our home?”</div>
-                <div class="description">Just ask the question, Let Lloyds do the leg work to determine the best way forward to have your pool proposal approved.</div>
+                <div class="description">Just ask the question, and let Lloyds do the work. We’ll determine the best way to have your pool proposal approved.</div>
             </div>
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-2.png", "lib", "cushion") ?></div>
@@ -240,21 +241,21 @@ include __DIR__ . '/header.php';
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-3.png", "lib", "cushion") ?></div>
                 <div class="title">Let’s Design – Personalised</div>
-                <div class="description">Interactive process with Lloyds Design Team to finalise the pool of your dreams.</div>
+                <div class="description">Enjoy an interactive process with the Lloyds Design Team to finalise the pool of your dreams.</div>
             </div>
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-4.png", "lib", "cushion") ?></div>
                 <div class="title">Council/Certifier Lodgement & Approval</div>
-                <div class="description">Lloyds will handle all lodges and pre-approvals so you don’t have to.</div>
+                <div class="description">Lloyds will handle all lodgements and pre-approvals, so you don’t have to.</div>
             </div>
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-5.png", "lib", "cushion") ?></div>
                 <div class="title">Construction Quotation based on your personalised design.</div>
-                <div class="description">Not happy with the price? No Problem, you own the plans and approval - your free to go to another contractor of your choice.</div>
+                <div class="description">No problem! You own the plans and approval - you’re free to go to another contractor of your choice.</div>
             </div>
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-6.png", "lib", "cushion") ?></div>
-                <div class="title">Happy with the price? Well its Time to install</div>
+                <div class="title">Happy With The Price? It’s Time To Install</div>
                 <div class="description">We will begin building within days of acceptance.</div>
             </div>
         </div>
@@ -288,21 +289,21 @@ include __DIR__ . '/header.php';
                 <div class="my-8">
                     <div class="faq-card pt-md-8">
                         <div class="title">What is the difference between an above and below ground pool?</div>
-                        <div class="description">Soil removal and excavation are required for pools that are built above the ground whereas in-ground pools provide more permanent home. Hence, you ought to decide the kind of construction you would consider in building your pool.</div>
+                        <div class="description">Soil removal and excavation are required for pools built below the ground, whereas above-ground pools sit on top of the ground as is. When designing your pool, you will need to decide which style suits your needs best.</div>
                         <?= renderImg("faq-2.png", "lib", "faq-img faq-img-2") ?>
                     </div>
                 </div>
                 <div class="my-8 pt-xxl-5">
                     <div class="faq-card pb-md-8">
                         <div class="title">What is needed to maintain my pool?</div>
-                        <div class="description">Every pool comes with the responsibility of maintenance. You need to ensure that your pool is energy-efficient with substantial filtration and sound hydraulics. Other kits include usage of adequate skimmers, variable speed pumps, pool pump enclosures, larger pipes, sanitizers, chlorinators and more.</div>
+                        <div class="description">Every pool comes with the responsibility of maintenance. You need to ensure that your pool is energy-efficient, with substantial filtration, and sound hydraulics. You also need to consider the use of adequate skimmers, variable speed pumps, pool pump enclosures, larger pipes, sanitisers, chlorinators, and more.</div>
                         <?= renderImg("faq-3.png", "lib", "faq-img faq-img-3") ?>
                     </div>
                 </div>
                 <div class="my-8">
                     <div class="faq-card pt-md-8">
                         <div class="title">What other pool features are available?</div>
-                        <div class="description">Lightning and water features are always meant to maximize the enjoyment of a pool. Depending on your usage, you can go for shallow-beach style entries, underwater benches, a swim-up bar and play areas for basketball or volleyball. Another convenient way to protect an unsupervised pool is to opt for an automatic pool safety cover.</div>
+                        <div class="description">Additions such as lighting and water features are there to maximise your pool experience. You can also opt for other stylistic features, such as shallow-beach style entries, underwater benches, swim-up bars, and play areas for basketball or volleyball. Pool safety covers are another great addition to protect your pool.</div>
                         <?= renderImg("faq-4.png", "lib", "faq-img faq-img-4") ?>
                     </div>
                 </div>

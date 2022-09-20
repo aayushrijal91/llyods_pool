@@ -39,6 +39,37 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-KLSKPGJ');
 	</script>
 	<!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73026200-17"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+		gtag('config', 'AW-10987966613');
+		gtag('config', 'UA-73026200-17');
+	</script>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10987966613"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+		gtag('config', 'AW-10987966613');
+	</script>
+
+	<script async src="https://trkcall.com/scripts/94799.js"></script>
 </head>
 
 <body>
