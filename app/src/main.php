@@ -155,7 +155,7 @@ include __DIR__ . '/header.php';
                     <div class="tab-pane fade" id="custom_pools" role="tabpanel" aria-labelledby="custom_pools-tab">
                         <div class="heading">Custom Pools</div>
                         <div class="description">
-                            <p>We understand that every backyard differs in shape and size. Our custom pool designs are personalised to meet your needs and desires, creating an outdoor area that flows aesthetically.</p>
+                            <p>We understand that every backyard differs in shape and size. Our Custom Pool designs are personalised to meet your needs and desires, creating an outdoor area that flows aesthetically.</p>
                             <p>We'll work closely with you - from the initial consultation, to design, and development, right down to completion.</p>
                             <p>The experts at Lloyds Pools will advise you on a style that best compliments your space, while considering any budgetary requirements or construction challenges.</p>
                             <div>We help people unlock their home’s full potential, creating memories that will last a lifetime.</div>
@@ -195,7 +195,7 @@ include __DIR__ . '/header.php';
                                     <div>
                                         <div class="fs-2 fw-600 line-height-1">Custom Pools</div>
                                         <div class="description">
-                                            <p>We understand that every backyard differs in shape and size. Our custom pool designs are personalised to meet your needs and desires, creating an outdoor area that flows aesthetically.</p>
+                                            <p>We understand that every backyard differs in shape and size. Our Custom pool designs are personalised to meet your needs and desires, creating an outdoor area that flows aesthetically.</p>
                                             <p>We'll work closely with you - from the initial consultation, to design, and development, right down to completion.</p>
                                             <p>The experts at Lloyds Pools will advise you on a style that best compliments your space, while considering any budgetary requirements or construction challenges.</p>
                                             <div>We help people unlock their home’s full potential, creating memories that will last a lifetime.</div>
@@ -251,7 +251,7 @@ include __DIR__ . '/header.php';
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-5.png", "lib", "cushion") ?></div>
                 <div class="title">Construction Quotation based on your personalised design.</div>
-                <div class="description">No problem! You own the plans and approval - you’re free to go to another contractor of your choice.</div>
+                <div class="description">Not happy with the price? No problem! You own the plans and approval - you’re free to go to another contractor of your choice.</div>
             </div>
             <div class="card">
                 <div class="position-relative w-100 d-flex justify-content-center"><?= renderImg("cushion-6.png", "lib", "cushion") ?></div>
@@ -282,7 +282,7 @@ include __DIR__ . '/header.php';
                 <div class="my-8 pt-xxl-8">
                     <div class="faq-card pb-md-8">
                         <div class="title">Does Size play a role in my decision?</div>
-                        <div class="description">The size of the pool isn’t only dependent on the amount of space available in the area. It also depends on the zoning restrictions and your budget. Call up your contractor to seek guidance and comply with the zoning accommodation.</div>
+                        <div class="description">The size of the pool isn’t only dependent on the amount of space available in the area. It also depends on the zoning restrictions and your budget. Call up your contractor to seek guidance and comply with the zoning requirements.</div>
                         <?= renderImg("faq-1.png", "lib", "faq-img faq-img-1") ?>
                     </div>
                 </div>
